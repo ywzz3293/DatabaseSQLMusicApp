@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shenw\\Documents\\Projects\\DatabaseSQLMusicApp\\DarabaseSQLMusicApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3916D1D6-6ECC-458B-B8E4-27B893FE85E0}|DarabaseSQLMusicApp\\DarabaseSQLMusicApp.csproj|c:\\users\\shenw\\documents\\projects\\databasesqlmusicapp\\darabasesqlmusicapp\\darabasesqlmusicapp\\albumsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3916D1D6-6ECC-458B-B8E4-27B893FE85E0}|DarabaseSQLMusicApp\\DarabaseSQLMusicApp.csproj|solutionrelative:darabasesqlmusicapp\\albumsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3916D1D6-6ECC-458B-B8E4-27B893FE85E0}|DarabaseSQLMusicApp\\DarabaseSQLMusicApp.csproj|c:\\users\\shenw\\documents\\projects\\databasesqlmusicapp\\darabasesqlmusicapp\\darabasesqlmusicapp\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3916D1D6-6ECC-458B-B8E4-27B893FE85E0}|DarabaseSQLMusicApp\\DarabaseSQLMusicApp.csproj|solutionrelative:darabasesqlmusicapp\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3916D1D6-6ECC-458B-B8E4-27B893FE85E0}|DarabaseSQLMusicApp\\DarabaseSQLMusicApp.csproj|c:\\users\\shenw\\documents\\projects\\databasesqlmusicapp\\darabasesqlmusicapp\\darabasesqlmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3916D1D6-6ECC-458B-B8E4-27B893FE85E0}|DarabaseSQLMusicApp\\DarabaseSQLMusicApp.csproj|solutionrelative:darabasesqlmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlbumsDAO.cs",
+              "DocumentMoniker": "C:\\Users\\shenw\\Documents\\Projects\\DatabaseSQLMusicApp\\DarabaseSQLMusicApp\\DarabaseSQLMusicApp\\AlbumsDAO.cs",
+              "RelativeDocumentMoniker": "DarabaseSQLMusicApp\\AlbumsDAO.cs",
+              "ToolTip": "C:\\Users\\shenw\\Documents\\Projects\\DatabaseSQLMusicApp\\DarabaseSQLMusicApp\\DarabaseSQLMusicApp\\AlbumsDAO.cs",
+              "RelativeToolTip": "DarabaseSQLMusicApp\\AlbumsDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:24:07.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\shenw\\Documents\\Projects\\DatabaseSQLMusicApp\\DarabaseSQLMusicApp\\DarabaseSQLMusicApp\\Album.cs",
+              "RelativeDocumentMoniker": "DarabaseSQLMusicApp\\Album.cs",
+              "ToolTip": "C:\\Users\\shenw\\Documents\\Projects\\DatabaseSQLMusicApp\\DarabaseSQLMusicApp\\DarabaseSQLMusicApp\\Album.cs",
+              "RelativeToolTip": "DarabaseSQLMusicApp\\Album.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:19:40.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\shenw\\Documents\\Projects\\DatabaseSQLMusicApp\\DarabaseSQLMusicApp\\DarabaseSQLMusicApp\\Form1.cs",
+              "RelativeDocumentMoniker": "DarabaseSQLMusicApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\shenw\\Documents\\Projects\\DatabaseSQLMusicApp\\DarabaseSQLMusicApp\\DarabaseSQLMusicApp\\Form1.cs [Design]",
+              "RelativeToolTip": "DarabaseSQLMusicApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:07:34.782Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
