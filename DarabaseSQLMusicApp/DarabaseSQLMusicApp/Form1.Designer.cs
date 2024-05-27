@@ -34,20 +34,26 @@
             textBox1 = new TextBox();
             pictureBox1 = new PictureBox();
             groupBox1 = new GroupBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            txt_name = new TextBox();
-            txt_imageURL = new TextBox();
-            txt_year = new TextBox();
-            txt_artist = new TextBox();
-            txt_description = new TextBox();
             button3 = new Button();
+            txt_description = new TextBox();
+            txt_artist = new TextBox();
+            txt_year = new TextBox();
+            txt_imageURL = new TextBox();
+            txt_name = new TextBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            label6 = new Label();
+            dataGridView2 = new DataGridView();
+            button4 = new Button();
+            webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -66,7 +72,7 @@
             dataGridView1.Location = new Point(267, 61);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(801, 247);
+            dataGridView1.Size = new Size(801, 210);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
@@ -91,7 +97,7 @@
             // 
             pictureBox1.Location = new Point(27, 295);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(216, 181);
+            pictureBox1.Size = new Size(202, 181);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
@@ -116,86 +122,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Add Album";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(15, 69);
-            label1.Name = "label1";
-            label1.Size = new Size(44, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Artist";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(15, 107);
-            label2.Name = "label2";
-            label2.Size = new Size(37, 20);
-            label2.TabIndex = 1;
-            label2.Text = "Year";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(15, 145);
-            label3.Name = "label3";
-            label3.Size = new Size(70, 20);
-            label3.TabIndex = 2;
-            label3.Text = "ImageUrl";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(15, 183);
-            label4.Name = "label4";
-            label4.Size = new Size(85, 20);
-            label4.TabIndex = 3;
-            label4.Text = "Description";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(15, 31);
-            label5.Name = "label5";
-            label5.Size = new Size(49, 20);
-            label5.TabIndex = 4;
-            label5.Text = "Name";
-            // 
-            // txt_name
-            // 
-            txt_name.Location = new Point(106, 35);
-            txt_name.Name = "txt_name";
-            txt_name.Size = new Size(125, 27);
-            txt_name.TabIndex = 5;
-            // 
-            // txt_imageURL
-            // 
-            txt_imageURL.Location = new Point(106, 143);
-            txt_imageURL.Name = "txt_imageURL";
-            txt_imageURL.Size = new Size(125, 27);
-            txt_imageURL.TabIndex = 6;
-            // 
-            // txt_year
-            // 
-            txt_year.Location = new Point(106, 107);
-            txt_year.Name = "txt_year";
-            txt_year.Size = new Size(125, 27);
-            txt_year.TabIndex = 7;
-            // 
-            // txt_artist
-            // 
-            txt_artist.Location = new Point(106, 71);
-            txt_artist.Name = "txt_artist";
-            txt_artist.Size = new Size(125, 27);
-            txt_artist.TabIndex = 8;
-            // 
-            // txt_description
-            // 
-            txt_description.Location = new Point(106, 179);
-            txt_description.Name = "txt_description";
-            txt_description.Size = new Size(125, 27);
-            txt_description.TabIndex = 9;
-            // 
             // button3
             // 
             button3.Location = new Point(79, 221);
@@ -206,11 +132,135 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // txt_description
+            // 
+            txt_description.Location = new Point(106, 179);
+            txt_description.Name = "txt_description";
+            txt_description.Size = new Size(125, 27);
+            txt_description.TabIndex = 9;
+            // 
+            // txt_artist
+            // 
+            txt_artist.Location = new Point(106, 71);
+            txt_artist.Name = "txt_artist";
+            txt_artist.Size = new Size(125, 27);
+            txt_artist.TabIndex = 8;
+            // 
+            // txt_year
+            // 
+            txt_year.Location = new Point(106, 107);
+            txt_year.Name = "txt_year";
+            txt_year.Size = new Size(125, 27);
+            txt_year.TabIndex = 7;
+            // 
+            // txt_imageURL
+            // 
+            txt_imageURL.Location = new Point(106, 143);
+            txt_imageURL.Name = "txt_imageURL";
+            txt_imageURL.Size = new Size(125, 27);
+            txt_imageURL.TabIndex = 6;
+            // 
+            // txt_name
+            // 
+            txt_name.Location = new Point(106, 35);
+            txt_name.Name = "txt_name";
+            txt_name.Size = new Size(125, 27);
+            txt_name.TabIndex = 5;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(15, 31);
+            label5.Name = "label5";
+            label5.Size = new Size(49, 20);
+            label5.TabIndex = 4;
+            label5.Text = "Name";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(15, 183);
+            label4.Name = "label4";
+            label4.Size = new Size(85, 20);
+            label4.TabIndex = 3;
+            label4.Text = "Description";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(15, 145);
+            label3.Name = "label3";
+            label3.Size = new Size(70, 20);
+            label3.TabIndex = 2;
+            label3.Text = "ImageUrl";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(15, 107);
+            label2.Name = "label2";
+            label2.Size = new Size(37, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Year";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(15, 69);
+            label1.Name = "label1";
+            label1.Size = new Size(44, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Artist";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(267, 274);
+            label6.Name = "label6";
+            label6.Size = new Size(49, 20);
+            label6.TabIndex = 6;
+            label6.Text = "Tracks";
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(270, 295);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(494, 151);
+            dataGridView2.TabIndex = 7;
+            dataGridView2.CellClick += dataGridView2_CellClick;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(270, 452);
+            button4.Name = "button4";
+            button4.Size = new Size(129, 29);
+            button4.TabIndex = 8;
+            button4.Text = "Delete Track";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // webView21
+            // 
+            webView21.AllowExternalDrop = true;
+            webView21.CreationProperties = null;
+            webView21.DefaultBackgroundColor = Color.White;
+            webView21.Location = new Point(804, 298);
+            webView21.Name = "webView21";
+            webView21.Size = new Size(264, 148);
+            webView21.TabIndex = 9;
+            webView21.ZoomFactor = 1D;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1083, 518);
+            Controls.Add(webView21);
+            Controls.Add(button4);
+            Controls.Add(dataGridView2);
+            Controls.Add(label6);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(textBox1);
@@ -223,6 +273,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -246,5 +298,9 @@
         private TextBox txt_name;
         private Label label5;
         private Button button3;
+        private Label label6;
+        private DataGridView dataGridView2;
+        private Button button4;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
     }
 }

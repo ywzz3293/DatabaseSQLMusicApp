@@ -30,3 +30,10 @@ C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\Daraba
 C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\obj\Debug\net8.0-windows\DarabaseSQLMusicApp.csproj.AssemblyReference.cache
 C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\obj\Debug\net8.0-windows\Darabase.467EE93C.Up2Date
 C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\obj\Debug\net8.0-windows\DarabaseSQLMusicApp.sourcelink.json
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll

@@ -15,7 +15,7 @@ namespace DarabaseSQLMusicApp
         public string ImageURL { get; set; }
         public string Description { get; set; }
 
-        //public list<Track> songs
+        public List<Track> Tracks { get; set; }
 
     }
 }

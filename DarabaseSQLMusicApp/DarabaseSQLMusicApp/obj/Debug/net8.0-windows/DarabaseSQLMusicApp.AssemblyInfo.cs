@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DarabaseSQLMusicApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ff2cea9b95a035182ff9bb39d040ce29e0f1106")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30f66f6b7c6d46b85da079d5f2696288a3c8d6dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DarabaseSQLMusicApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DarabaseSQLMusicApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
