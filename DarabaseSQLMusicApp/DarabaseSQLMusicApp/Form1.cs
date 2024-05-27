@@ -35,5 +35,22 @@ namespace DarabaseSQLMusicApp
 
             pictureBox1.Load(imageURL);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Album album = new Album
+            {
+                AlbumName = txt_name.Text,
+                ArtistName = txt_artist.Text,
+                Year = Int32.Parse(txt_year.Text),
+                ImageURL = txt_imageURL.Text,
+                Description = txt_description.Text
+            };
+
+            AlbumsDAO albumDAO = new AlbumsDAO();
+            int res = albumDAO.addOneAlbum(album);
+
+            MessageBox.Show(res.ToString());
+        }
     }
 }

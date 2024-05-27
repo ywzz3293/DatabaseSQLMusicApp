@@ -42,6 +42,27 @@ namespace DarabaseSQLMusicApp
             return list;
         }
 
+        internal int addOneAlbum(Album album)
+        {
+            List<Album> list = new List<Album>();
+
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            connection.Open();
+
+            MySqlCommand command = new MySqlCommand("INSERT INTO `albums`(`ALBUM_TITLE`, `ARTIST`, `YEAR`, `IMAGE_NAME`, `DESCRIPTION`) VALUES (@albumtitle,@artist,@year,@imageURL,@description) ", connection);
+
+            command.Parameters.AddWithValue("@albumtitle", album.AlbumName);
+            command.Parameters.AddWithValue("@artist", album.ArtistName);
+            command.Parameters.AddWithValue("@year", album.Year);
+            command.Parameters.AddWithValue("@imageURL", album.ImageURL);
+            command.Parameters.AddWithValue("@description", album.Description);
+
+            int res = command.ExecuteNonQuery();
+            connection.Close();
+
+            return res;
+        }
+
         internal object searchTitles(string text)
         {
 

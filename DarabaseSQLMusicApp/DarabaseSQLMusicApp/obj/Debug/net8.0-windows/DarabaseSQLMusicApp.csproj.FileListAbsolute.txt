@@ -29,3 +29,4 @@ C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\Daraba
 C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\obj\Debug\net8.0-windows\DarabaseSQLMusicApp.csproj.AssemblyReference.cache
 C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\obj\Debug\net8.0-windows\Darabase.467EE93C.Up2Date
+C:\Users\shenw\Documents\Projects\DatabaseSQLMusicApp\DarabaseSQLMusicApp\DarabaseSQLMusicApp\obj\Debug\net8.0-windows\DarabaseSQLMusicApp.sourcelink.json
